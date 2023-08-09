@@ -1,0 +1,194 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+    color: hsl(179, 62%, 43%)
+}
+    
+.attribution a { 
+    color: hsl(71, 73%, 54%); 
+}
+
+.attribution {
+    margin-top: 7px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Karla';
+    font-size: 16px;
+    background-color: hsl(204, 43%, 93%);
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#card {
+    height: 90vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 3px 7px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#big-box {
+    background-color: white;
+    height: 37.5%;
+}
+
+#bottom-section {
+    height: 63.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-box,
+#right-box {
+    height: 50%;
+}
+
+#left-box {
+    left: 0;
+    background-color: rgb(44,179,179);
+}
+
+#right-box {
+    right: 0;
+    background-color: rgb(75,190,190);
+}
+
+#big-box,
+#right-box,
+#left-box {
+    padding: 22px;
+}
+
+#join-our-community {
+    margin-top: 7px;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 23px;
+    font-size: 1.2em;
+}
+
+#guarantee {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 13px;
+}
+
+#guarantee,
+ul {
+    font-size: 0.9em;
+}
+
+#description {
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+    margin: 0;
+    font-size: 0.8em;
+}
+
+h1, h2, h4, p {
+    margin: 0;
+}
+
+#price-per-month {
+    margin-top: 20px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+
+#per-month {
+    margin-left: 15px;
+    opacity: 0.4;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+    height: 25%;
+    color: white;
+    font-family: 'Karla';
+    margin-top: 30px;
+    font-size: 1em;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:hsl(71, 92%, 43%);
+    transform: scale(1.002);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 23px;
+    opacity: 0.8;
+}
+
+.smaller {
+    font-size: 0.95em;
+}
+
+@media (min-width: 650px) {
+    #card {
+        height: 460px;
+        width: 630px;
+    }
+
+    #big-box {
+        height: 45%;
+    }
+
+    #bottom-section {
+        flex-direction: row;
+    }
+
+    #right-box,
+    #left-box {
+        height: 100%;
+        width: 50%;
+    }
+
+    #left-box {
+        background-color: rgb(44,179,179);
+    }
+
+    #right-box {
+        background-color: rgb(75,190,190);
+    }
+
+    #big-box,
+    #right-box,
+    #left-box {
+        padding: 34px;
+    }
+
+    #join-our-community {
+        font-size: 1.5em;
+    }
+
+    #guarantee {
+        font-size: 1em;
+    }
+
+    #description,
+    ul,
+    .smaller {
+        font-size: 1em;
+    }
+
+
+}
