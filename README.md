@@ -24,7 +24,9 @@ Users should be able to:
 
 - Link: [solution](https://claraz4.github.io/Single-Price-Grid/)
 
+
 - Pictures:
+
 
 ![Mobile Version](mobile-version.jpg)
 ![Desktop Version](desktop-version.jpg)
